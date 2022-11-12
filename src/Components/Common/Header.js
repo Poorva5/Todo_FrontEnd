@@ -1,9 +1,11 @@
-
+import Login from '../Auth/Login';
 
 const Header = () => {
-    return (
-        <div>Header</div>
-    )
-}
+  return (
+    <div>
+      <Login />
+    </div>
+  );
+};
 
 export default Header;
